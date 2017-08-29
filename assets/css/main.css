@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    outline: solid red;
 }
 
 header {
@@ -9,19 +10,72 @@ header {
     width: 100%;
     top: 0;
     padding: 30px;
+    background: green;
 }
 
-menu {
-    padding: 14px 70px;
-    overflow: auto;
+.container {
+    padding: 40px;
+    height:
 }
 
 .btn-menu {
     padding: 2px;
     text-decoration: none;
+    color: #BDBDBD;
 }
 
-span {
+.icon-home2 {
     font-size: 20px;
     color: #BDBDBD;
+}
+
+.icon-bell {
+    font-size: 20px;
+    color: #BDBDBD;
+}
+
+.icon-envelope {
+    font-size: 20px;
+    color: #BDBDBD;
+}
+
+.icon-brand {
+    font-size: 50px;
+    position: fixed;
+    left: 800px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.icon-search {
+    font-size: 20px;
+    color: #BDBDBD;
+    position: fixed;
+    left: 600px;
+    top: 45px;
+}
+
+.pluma {
+    font-weight: 700;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    right: 100px;
+    line-height: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    width: 100px;
+    background: #58ACFA;
+    position: fixed;
+}
+
+.icon-quill {
+    font-size: 20px;
+    color: white;
 }
