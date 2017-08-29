@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+    padding: 30px;
+}
+
+menu {
+    padding: 14px 70px;
+    overflow: auto;
+}
+
+.btn-menu {
+    padding: 2px;
+    text-decoration: none;
+}
+
+span {
+    font-size: 20px;
+    color: #BDBDBD;
+}
