@@ -1,10 +1,11 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* outline: solid yellowgreen;*/
+    /*outline: solid yellowgreen;*/
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     background: #E5F2FC;
 }
 
@@ -14,76 +15,104 @@ header {
     width: 100%;
     top: 0;
     padding: 5px;
-    background: green;
 }
 
 .container {
     padding: 40px;
-    width: 1400px;
+    width: 1260px;
     height: 5px;
 }
 
 .btn-menu {
     padding: 2px;
     text-decoration: none;
-    color: #BDBDBD;
+    color: #8B8D8B;
+}
+
+.btn-menu:hover {
+    background-color: #58ACFA;
+    border-radius: 10px solid silver;
+    text-decoration: none;
+    color: white;
 }
 
 .icon-home2 {
     font-size: 20px;
-    color: #BDBDBD;
+    color: #8B8D8B;
 }
 
 .icon-bell {
     font-size: 20px;
-    color: #BDBDBD;
+    color: #8B8D8B;
 }
 
 .icon-envelope {
     font-size: 20px;
-    color: #BDBDBD;
+    color: #8B8D8B;
 }
 
 .icon-brand {
-    font-size: 40px;
+    font-size: 30px;
     position: fixed;
-    left: 800px;
+    left: 660px;
+    top: 40px;
+}
+
+#foto1 {
+    width: 40px;
+    height: 40px;
+    left: 1125px;
+    position: fixed;
+    top: 35px;
+    border-radius: 2000px;
+    border-style: solid;
+    border-color: #8B8D8B;
 }
 
 input {
-    width: 300px;
+    width: 220px;
     padding: 5px;
     border-style: solid;
     border-radius: 10px;
-    left: 500px;
+    border-color: #8B8D8B;
+    left: 875px;
+    top: 45px;
+    position: fixed;
 }
 
 .icon-search {
     font-size: 20px;
-    color: #BDBDBD;
+    color: #8B8D8B;
     position: fixed;
-    left: 600px;
-    top: 45px;
+    left: 1080px;
+    top: 50px;
 }
 
 .pluma {
     font-weight: 700;
-    padding: 10px;
+    padding: 8px;
     display: inline;
     text-decoration: none;
     color: white;
-    right: 100px;
+    right: 220px;
     line-height: 5px;
-    border-radius: 4px;
+    border-radius: 23px;
     border-style: solid;
     width: 100px;
     background: #58ACFA;
     position: fixed;
+    top: 40px;
 }
 
 .icon-quill {
     font-size: 20px;
     color: white;
+}
+
+.twitter {
+    padding: 5px;
+    float: right;
+    font-size: 17px;
 }
 
 #general {
@@ -138,7 +167,9 @@ input {
     margin-left: 130px;
     text-align: right;
     font-size: 15px;
-    color: #BDBDBD;
+    font-weight: 200px;
+    padding: 5px;
+    color: #8B8D8B;
 }
 
 #textos {
@@ -149,13 +180,13 @@ input {
 .text {
     width: 65px;
     height: 13px;
-    font-weight: 200;
+    font-weight: 200px;
     font-size: 11px;
     padding: 5px;
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    color: #BDBDBD;
+    color: #8B8D8B;
     float: left;
 }
 
@@ -175,12 +206,66 @@ input {
 .segundo {
     width: 350px;
     height: 400px;
-    background-color: skyblue;
+    background-color: white;
     margin-left: 40px;
     margin-top: 50px;
     border-radius: 6px;
     border-style: solid;
     border-color: white;
+}
+
+#parrafos {
+    padding: 14px 60px;
+}
+
+.parrafo {
+    width: 65px;
+    height: 13px;
+    font-weight: 500px;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    float: left;
+}
+
+.parrafo1 {
+    width: 65px;
+    height: 13px;
+    font-weight: 200px;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #3F9AEC;
+    float: left;
+}
+
+.tweet {
+    top: 10px;
+    width: 250px;
+    height: 19px;
+    font-weight: 600px;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    color: #58ACFA;
+    float: left;
+}
+
+.num {
+    width: 65px;
+    height: 13px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    color: #8B8D8B;
+    float: left;
 }
 
 .clear-left {
