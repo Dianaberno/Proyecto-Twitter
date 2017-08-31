@@ -145,17 +145,16 @@ input {
 #foto {
     width: 100px;
     height: 100px;
-    left: 60px;
-    position: absolute;
-    margin-top: 150px;
-    border-radius: 6px;
-    border-style: solid;
+    margin-left: 7px;
+    margin-top: -50px;
+    border-radius: 7px;
     border-color: white;
+    border-style: solid;
 }
 
 .nombre {
     width: 130px;
-    margin-top: 8px;
+    margin-top: -60px;
     margin-left: 130px;
     text-align: right;
     font-size: 17px;
