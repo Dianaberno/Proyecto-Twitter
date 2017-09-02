@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     /* outline: solid yellowgreen;*/
+
 }
 
 body {
@@ -16,7 +17,9 @@ header {
     top: 0;
     padding: 5px;
 }
+.general{
 
+}
 .container {
     padding: 40px;
     width: 1260px;
@@ -283,7 +286,7 @@ input {
 #informacion {
     background-color: #7ccbea;
     width: 550px;
-    margin-top: 80px;
+    margin-top: 140px;
 }
 
 #perfil {
@@ -479,12 +482,11 @@ p {
 =       Section A quién seguir        =
 =============================================*/
 
-#columna-izq {
-    width: 250px;
+#columna-izq{
+    width: 25%;
     position: relative;
-    left: 410px;
-    bottom: 565px;
-}
+    left: 450px;
+    bottom: 1065px;
 
 #container {
     width: 320px;
