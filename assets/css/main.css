@@ -90,7 +90,7 @@ input {
 
 .pluma {
     font-weight: 700;
-    padding: 8px;
+    padding: 3px;
     display: inline;
     text-decoration: none;
     color: white;
@@ -101,18 +101,22 @@ input {
     width: 100px;
     background: #58ACFA;
     position: fixed;
-    top: 40px;
+    top: 35px;
 }
 
 .icon-quill {
     font-size: 20px;
     color: white;
+    margin-top: 10px;
 }
 
 .twitter {
     padding: 5px;
     float: right;
-    font-size: 17px;
+    font-size: 20px;
+    color: white;
+    left: 320px;
+    top: -15px;
 }
 
 #general {
